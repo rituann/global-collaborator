@@ -1,0 +1,289 @@
+{
+  "scales": [
+    {
+      "id": "communicating",
+      "name": "Communicating",
+      "leftLabel": "Low-Context",
+      "rightLabel": "High-Context",
+      "leftDescription": "Good communication is precise, simple, and clear. Messages are expressed and understood at face value.",
+      "rightDescription": "Good communication is sophisticated, nuanced, and layered. Messages are often implied but not plainly expressed."
+    },
+    {
+      "id": "evaluating",
+      "name": "Evaluating",
+      "leftLabel": "Direct Negative Feedback",
+      "rightLabel": "Indirect Negative Feedback",
+      "leftDescription": "Negative feedback is provided frankly, bluntly, and honestly. Criticism may be given to an individual in front of a group.",
+      "rightDescription": "Negative feedback is provided softly, subtly, and diplomatically. Criticism is given only in private."
+    },
+    {
+      "id": "persuading",
+      "name": "Persuading",
+      "leftLabel": "Principles-First",
+      "rightLabel": "Applications-First",
+      "leftDescription": "Individuals prefer to first understand the theory or concept before moving to practical application.",
+      "rightDescription": "Individuals prefer to begin with practical examples and applications before discussing theory."
+    },
+    {
+      "id": "leading",
+      "name": "Leading",
+      "leftLabel": "Egalitarian",
+      "rightLabel": "Hierarchical",
+      "leftDescription": "The ideal distance between boss and subordinate is low. The best boss is a facilitator among equals.",
+      "rightDescription": "The ideal distance between boss and subordinate is high. The best boss is a strong director."
+    },
+    {
+      "id": "deciding",
+      "name": "Deciding",
+      "leftLabel": "Consensual",
+      "rightLabel": "Top-Down",
+      "leftDescription": "Decisions are made in groups through unanimous agreement. Decisions take longer but are more committed.",
+      "rightDescription": "Decisions are made by individuals, usually the boss. Decisions are fast but may be revisited.",
+      "note": "This scale is independent of the Leading scale. A hierarchical culture can still make decisions consensually."
+    },
+    {
+      "id": "trusting",
+      "name": "Trusting",
+      "leftLabel": "Task-Based",
+      "rightLabel": "Relationship-Based",
+      "leftDescription": "Trust is built through business-related activities. Work relationships are built and dropped easily.",
+      "rightDescription": "Trust is built through sharing meals, drinks, and personal time. Work relationships build slowly over time."
+    },
+    {
+      "id": "disagreeing",
+      "name": "Disagreeing",
+      "leftLabel": "Confrontational",
+      "rightLabel": "Avoids Confrontation",
+      "leftDescription": "Disagreement and debate are positive for the team. Open confrontation is appropriate and acceptable.",
+      "rightDescription": "Disagreement and debate are negative for the team. Open confrontation is inappropriate and disruptive."
+    },
+    {
+      "id": "scheduling",
+      "name": "Scheduling",
+      "leftLabel": "Linear-Time",
+      "rightLabel": "Flexible-Time",
+      "leftDescription": "Project steps are approached sequentially. One thing at a time. No interruptions. Punctuality and deadlines are rigid.",
+      "rightDescription": "Project steps are approached fluidly. Many things are dealt with at once. Interruptions accepted. Flexibility valued."
+    }
+  ],
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "communicating": 20,
+      "evaluating": 30,
+      "persuading": 80,
+      "leading": 30,
+      "deciding": 70,
+      "trusting": 20,
+      "disagreeing": 30,
+      "scheduling": 20
+    },
+    "Brazil": {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "communicating": 70,
+      "evaluating": 70,
+      "persuading": 40,
+      "leading": 70,
+      "deciding": 50,
+      "trusting": 85,
+      "disagreeing": 70,
+      "scheduling": 80
+    },
+    "Netherlands": {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "communicating": 15,
+      "evaluating": 10,
+      "persuading": 30,
+      "leading": 15,
+      "deciding": 20,
+      "trusting": 25,
+      "disagreeing": 15,
+      "scheduling": 25
+    },
+    "China": {
+      "name": "China",
+      "flag": "🇨🇳",
+      "communicating": 85,
+      "evaluating": 80,
+      "persuading": 35,
+      "leading": 80,
+      "deciding": 75,
+      "trusting": 90,
+      "disagreeing": 85,
+      "scheduling": 70
+    },
+    "France": {
+      "name": "France",
+      "flag": "🇫🇷",
+      "communicating": 55,
+      "evaluating": 20,
+      "persuading": 15,
+      "leading": 55,
+      "deciding": 40,
+      "trusting": 50,
+      "disagreeing": 25,
+      "scheduling": 45
+    },
+    "Germany": {
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "communicating": 25,
+      "evaluating": 15,
+      "persuading": 20,
+      "leading": 35,
+      "deciding": 25,
+      "trusting": 30,
+      "disagreeing": 25,
+      "scheduling": 15
+    },
+    "Japan": {
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "communicating": 90,
+      "evaluating": 85,
+      "persuading": 45,
+      "leading": 75,
+      "deciding": 15,
+      "trusting": 70,
+      "disagreeing": 90,
+      "scheduling": 35
+    },
+    "India": {
+      "name": "India",
+      "flag": "🇮🇳",
+      "communicating": 75,
+      "evaluating": 75,
+      "persuading": 30,
+      "leading": 75,
+      "deciding": 70,
+      "trusting": 80,
+      "disagreeing": 75,
+      "scheduling": 75
+    },
+    "Mexico": {
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "communicating": 65,
+      "evaluating": 65,
+      "persuading": 50,
+      "leading": 75,
+      "deciding": 65,
+      "trusting": 80,
+      "disagreeing": 70,
+      "scheduling": 85
+    },
+    "UK": {
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "communicating": 35,
+      "evaluating": 40,
+      "persuading": 75,
+      "leading": 40,
+      "deciding": 55,
+      "trusting": 35,
+      "disagreeing": 35,
+      "scheduling": 30
+    }
+  },
+  "templates": {
+    "officeUSHQ": {
+      "name": "US Headquarters",
+      "description": "Typical US headquarters culture profile",
+      "communicating": 25,
+      "evaluating": 35,
+      "persuading": 75,
+      "leading": 35,
+      "deciding": 65,
+      "trusting": 25,
+      "disagreeing": 30,
+      "scheduling": 25
+    },
+    "officeBrazil": {
+      "name": "Brazil Office",
+      "description": "Brazil regional office culture profile",
+      "communicating": 70,
+      "evaluating": 65,
+      "persuading": 45,
+      "leading": 70,
+      "deciding": 55,
+      "trusting": 80,
+      "disagreeing": 65,
+      "scheduling": 75
+    },
+    "officeAmsterdam": {
+      "name": "Amsterdam (Global HQ)",
+      "description": "Amsterdam office culture profile (Global HQ)",
+      "communicating": 15,
+      "evaluating": 10,
+      "persuading": 30,
+      "leading": 20,
+      "deciding": 25,
+      "trusting": 30,
+      "disagreeing": 15,
+      "scheduling": 25
+    },
+    "officeUK": {
+      "name": "UK Office",
+      "description": "United Kingdom office culture profile",
+      "communicating": 35,
+      "evaluating": 40,
+      "persuading": 70,
+      "leading": 40,
+      "deciding": 50,
+      "trusting": 35,
+      "disagreeing": 35,
+      "scheduling": 30
+    },
+    "officeAustralia": {
+      "name": "Australia Office",
+      "description": "Australia office culture profile",
+      "communicating": 25,
+      "evaluating": 25,
+      "persuading": 75,
+      "leading": 30,
+      "deciding": 55,
+      "trusting": 30,
+      "disagreeing": 25,
+      "scheduling": 30
+    },
+    "personaRitu": {
+      "name": "Ritu (26, India/Middle East)",
+      "description": "Culturally adaptable professional with Indian roots and Middle Eastern experience",
+      "communicating": 45,
+      "evaluating": 45,
+      "persuading": 55,
+      "leading": 40,
+      "deciding": 50,
+      "trusting": 55,
+      "disagreeing": 45,
+      "scheduling": 45
+    },
+    "personaFrench42": {
+      "name": "Jean-Pierre (42, France)",
+      "description": "Experienced French professional with principles-first approach",
+      "communicating": 55,
+      "evaluating": 20,
+      "persuading": 15,
+      "leading": 55,
+      "deciding": 40,
+      "trusting": 50,
+      "disagreeing": 25,
+      "scheduling": 45
+    },
+    "personaMexican59": {
+      "name": "Carlos (59, Mexico)",
+      "description": "Senior Mexican executive with relationship-focused leadership style",
+      "communicating": 70,
+      "evaluating": 70,
+      "persuading": 50,
+      "leading": 80,
+      "deciding": 70,
+      "trusting": 85,
+      "disagreeing": 75,
+      "scheduling": 85
+    }
+  }
+}
